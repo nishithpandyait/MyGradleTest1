@@ -15,6 +15,7 @@ import com.example.mygradletest1.ui.theme.MyGradleTest1Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        var nishith = "nishith"
         val buildType =""// BuildConfig.current_build_type
         setContent {
             MyGradleTest1Theme {
